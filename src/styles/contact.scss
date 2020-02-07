@@ -1,0 +1,41 @@
+@import 'colorAndFont';
+
+img {
+    width: 45px;
+    height: 45px;
+    margin: 0 20px 0 20px;
+}
+
+.imgContainer {
+    height: 10%;
+    width: 100%;
+    bottom: 1px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.imgContainer img:hover {
+    animation-duration: 4s;
+    animation-name: onHoverImg;
+}
+
+@keyframes onHoverImg {
+    from {
+        width: 45px;
+        height: 45px;
+    }
+
+    10% {
+        width: 55px;
+        height: 55px;
+        transform: rotate(-360deg);
+    }
+
+    to {
+        width: 55px;
+        height: 55px;
+        transform: rotate(-360deg);
+    }
+}
+
