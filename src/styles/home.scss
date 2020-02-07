@@ -4,26 +4,46 @@
     position: absolute;
     width: 100%;
     margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
 }
 
-#paolo {
-    margin-left: -220px;
-}
-
-#torregrosa {
-    margin-top: -50px;
-}
-
-.home h1 {
+.name {
+    margin-right: 4%;
+    margin-top: 6.5%;
     color: $text;
-    text-align: right;
-    width: 95%;
-    font-size: 530%;
+    padding: 10px;
 }
 
-.home h3 {
-    color: $text;
-    text-align: right;
-    width: 95%;
-    margin-top: -75px;
+.name h1 {
+    margin: 0;
+    font-size: 520%;
 }
+
+.name h3 {
+    position: absolute;
+    margin-top: -17px;
+    margin-left: 255px;
+}
+
+.logo{
+    width: 370px;
+    height: auto;
+    margin-left: 16%;
+    margin-top: 1%;
+}
+
+@media only screen and (max-width: 800px) {
+    .home {
+        display: block;
+        position: absolute;
+        width: 100%;
+    }
+
+    .logo {
+        margin-left: 10%;
+        width: 80%;
+    }
+}
+
+
