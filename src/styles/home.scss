@@ -1,0 +1,21 @@
+@import 'colorAndFont';
+
+.home {
+    position: absolute;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.home h1 {
+    color: $text;
+    text-align: right;
+    width: 95%;
+    font-size: 530%;
+}
+
+.home h3 {
+    color: $text;
+    text-align: right;
+    width: 95%;
+    margin-top: -5%;
+}
