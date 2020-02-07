@@ -23,5 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 #Assets
-# /assets
-# *.png
+/assets
+*.png
