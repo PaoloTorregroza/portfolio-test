@@ -1,0 +1,48 @@
+@import 'colorAndFont';
+
+.projectCard {
+    margin-left: 7%;
+    width: 86%;
+    height: 206;
+    color: $text;
+    display: flex;
+    margin-top: 60px;
+    border-bottom: 3px solid $text;
+    padding: 10px;
+}
+
+.projectCard a {
+    color: $text;
+    font-weight: bold;
+    text-decoration: none;
+    text-decoration-line: underline;
+}
+
+.projectCard img {
+    margin-top: 10px;
+    width: 408px;
+    height: 186px;
+    flex-grow: 0;
+    border: 2px solid $secondary;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+}
+.cardContent p {
+    margin: -10px 0 0 0;
+}
+
+.skills {
+    display: flex;
+}
+
+.singleSkill {
+    margin-right: 15px;
+    padding: 4px;
+    background-color: $secondary;
+    color: $light-blue;
+    border-radius: 15%;
+}
