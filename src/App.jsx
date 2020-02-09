@@ -13,43 +13,65 @@ import Projects from './components/projects/Projects';
 import './styles/header.scss';
 import Contact from './components/contact/Contact';
 
-function App() {
-  return (
-    <Router>
-      <nav className="header">
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/bio">About</Link>
-          </li>
-          <li>
-            <Link to="/skills">Skills</Link>
-          </li>
-          <li>
-            <Link to="/projects">My Work</Link>
-          </li>
-        </ul>
-      </nav>
+class App extends React.Component {
 
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route exact path="/bio">
-          <Bio />
-        </Route>
-        <Route exact path="/skills">
-          <Skills />
-        </Route>
-        <Route exact path="/projects">
-          <Projects />
-        </Route>
-      </Switch>
-      <Contact />
-    </Router>
-  );
+  constructor(props) {
+    super(props);
+    this.state = {
+      clicked: false,
+    }
+  }
+
+  render() {
+    return (
+      <Router>
+        <nav className={!this.state.clicked ? "header" : "responsive header"} >
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/bio">About</Link>
+            </li>
+            <li>
+              <Link to="/skills">Skills</Link>
+            </li>
+            <li>
+              <Link to="/projects">My Work</Link>
+            </li>
+          </ul>
+          <div className={!this.state.clicked ? "container icon" : "icon container change"} onClick={this.startAnimation.bind(this)}>
+            <div className="bar1"></div>
+            <div className="bar2"></div>
+            <div className="bar3"></div>
+          </div>
+        </nav>
+
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/bio">
+            <Bio />
+          </Route>
+          <Route exact path="/skills">
+            <Skills />
+          </Route>
+          <Route exact path="/projects">
+            <Projects />
+          </Route>
+        </Switch>
+        <Contact />
+      </Router>
+    );
+  }
+
+
+  startAnimation() {
+    this.setState({
+      clicked: !this.state.clicked
+    });
+  }
 }
 
 export default App;
