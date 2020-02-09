@@ -37,10 +37,12 @@
 
 .skills {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .singleSkill {
     margin-right: 15px;
+    margin-bottom: 10px;
     padding: 4px;
     background-color: $secondary;
     color: $light-blue;

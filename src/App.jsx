@@ -11,6 +11,7 @@ import Skills from './components/skills/Skills';
 import Projects from './components/projects/Projects';
 
 import './styles/header.scss';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/bio">Bio</Link>
+            <Link to="/bio">About</Link>
           </li>
           <li>
             <Link to="/skills">Skills</Link>
@@ -46,6 +47,7 @@ function App() {
           <Projects />
         </Route>
       </Switch>
+      <Contact />
     </Router>
   );
 }

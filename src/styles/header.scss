@@ -40,15 +40,18 @@
     from {
         padding-top: 0;
         border-bottom: 0px solid $text;
+        background-color: transparent;
     }
 
     10% {
         padding-top: 3%;
+        background-color: $primary;
     }
 
     to {
         padding-top: 3%;
         border-bottom: 2px solid $text;
+        background-color: $primary;
     }
 }
 

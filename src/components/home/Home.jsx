@@ -13,7 +13,6 @@ class Home extends React.Component {
                     <h1>Torregrosa</h1>
                     <h3>Software developer</h3>
                 </div>
-                <Contact />
             </div>
         );
     }

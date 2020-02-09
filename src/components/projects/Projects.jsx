@@ -25,7 +25,6 @@ class Projects extends React.Component {
                         skills="ReactJs Sass Html Css JavaScript React-Router"
                     />
                 </div>
-                <Contact />
             </div>
         );
     }

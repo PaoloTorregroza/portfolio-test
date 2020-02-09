@@ -16,6 +16,7 @@ img {
 }
 
 .imgContainer img:hover {
+    border-radius: 30px;
     animation-duration: 4s;
     animation-name: onHoverImg;
 }
@@ -24,18 +25,21 @@ img {
     from {
         width: 45px;
         height: 45px;
+        background-color: transparent;
     }
 
     10% {
         width: 55px;
         height: 55px;
         transform: rotate(-360deg);
+        background-color: $primary;
     }
 
     to {
         width: 55px;
         height: 55px;
         transform: rotate(-360deg);
+        background-color: $primary;
     }
 }
 
