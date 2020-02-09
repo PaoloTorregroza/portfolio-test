@@ -1,0 +1,26 @@
+@import "colorAndFont";
+
+.skillCard {
+    margin-left: 7%;
+    width: 86%;
+    height: 206;
+    color: $text;
+    display: flex;
+    margin-top: 60px;
+    border-bottom: 3px solid $text;
+    padding: 10px;
+}
+
+.skillCard img {
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+    max-width: 20%;
+    flex-grow: 0;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+}
