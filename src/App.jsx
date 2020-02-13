@@ -28,16 +28,16 @@ class App extends React.Component {
         <nav className={!this.state.clicked ? "header" : "responsive header"} >
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link onClick={this.startAnimation.bind(this)} to="/">Home</Link>
             </li>
             <li>
-              <Link to="/bio">About</Link>
+              <Link onClick={this.startAnimation.bind(this)} to="/bio">About</Link>
             </li>
             <li>
-              <Link to="/skills">Skills</Link>
+              <Link onClick={this.startAnimation.bind(this)} to="/skills">Skills</Link>
             </li>
             <li>
-              <Link to="/projects">My Work</Link>
+              <Link onClick={this.startAnimation.bind(this)} to="/projects">My Work</Link>
             </li>
           </ul>
           <div className={!this.state.clicked ? "container icon" : "icon container change"} onClick={this.startAnimation.bind(this)}>
