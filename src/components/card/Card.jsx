@@ -7,7 +7,7 @@ class Card extends React.Component {
             <div className="projectCard">
                 <img src={this.props.image} alt="" />
                 <div className="cardContent">
-                    <a target="_blank" href={this.props.link}><h3>{this.props.title}</h3></a>
+                    <a target="_blank" rel="noopener noreferrer" href={this.props.link}><h3>{this.props.title}</h3></a>
                     <p>{this.props.text}</p>
                     <br />
                     <h4>Skills</h4>

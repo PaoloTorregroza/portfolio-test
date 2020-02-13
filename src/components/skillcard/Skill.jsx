@@ -5,7 +5,7 @@ class Skill extends React.Component {
     render() {
         return (
             <div className="skillCard">
-                <img src={this.props.image} alt="skill image" />
+                <img src={this.props.image} alt="Skill"/>
                 <div className="cardContent">
                     <h2 className="skillTitle">{this.props.title}</h2>
                     <p>{this.props.text}</p>

@@ -1,5 +1,4 @@
 import React from 'react';
-import Contact from '../contact/Contact';
 import Card from '../card/Card';
 import '../../styles/Project.scss';
 import GameOfLife from '../../assets/game-of-life.png';
