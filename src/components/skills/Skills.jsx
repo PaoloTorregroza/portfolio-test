@@ -9,9 +9,11 @@ class Skills extends React.Component {
     render() {
         return (
             <div className="skillsContainer">
-                <Skill image={Vue} title="Vuejs" text="I know how to #$%##+&% whit Vuejs"/>
-                <Skill image={ReactImage} title="Reactjs" text="I know how to #$%##+&% whit React"/>
-                <Skill image={Golang} title="Golang" text="I know how to #$%##+&% whit golang"/>
+                <Skill image={Vue} title="Vuejs" text="Whit VueJs I started my front-end learning, one of my projects is purely made whit VueJs and Sass"/>
+                <Skill image={ReactImage} title="Reactjs" text="The powerful front-end javascript framework, This website is built with this technology"/>
+                <Skill image={Golang} title="Golang" text="One of my favorites languages, Whit golang I started my backend learning, so, I know how to build APIs"/>
+                <Skill image={Golang} title="Golang" text="One of my favorites languages, Whit golang I started my backend learning, so, I know how to build APIs"/>
+                <Skill image={Golang} title="Golang" text="One of my favorites languages, Whit golang I started my backend learning, so, I know how to build APIs"/>
             </div>
         );
     }
