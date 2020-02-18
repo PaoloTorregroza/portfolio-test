@@ -6,11 +6,14 @@
     margin-left: 1%;
     margin-right: 1%;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 
 .skillCard img {
     height: 170px;
     width: auto;
+    margin-bottom: -13px;
 }
 
 @media only screen and (max-width: 800px) {

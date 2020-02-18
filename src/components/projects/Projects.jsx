@@ -13,14 +13,16 @@ class Projects extends React.Component {
                         link="https://paolotorregroza.github.io/game-of-life/"
                         image={GameOfLife}
                         title="Game Of Life"
-                        text="This is my version of the Conway's game of life"
+                        text="Conway's game of life, an excellent 
+                                way to show algorithm skills and in this case frontend skills"
                         skills="Vuejs Sass Html Css JavaScript"
                     />
                     <Card
                         link="https://paolotorregroza.github.io/portfolio/"
                         image={Portfoio}
                         title="My Portfolio"
-                        text="What better project than something you've already used. This page is made using react and sass"
+                        text="This portfolio you are reviewing is 
+                                built with ReactJS the powerful Facebook frontend framework"
                         skills="ReactJs Sass Html Css JavaScript React-Router"
                     />
                 </div>
