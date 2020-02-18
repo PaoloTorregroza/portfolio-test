@@ -24,7 +24,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
+      <Router basename="/portfolio">
         <nav className={!this.state.clicked ? "header" : "responsive header"} >
           <ul>
             <li>
