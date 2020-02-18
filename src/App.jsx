@@ -51,13 +51,13 @@ class App extends React.Component {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/bio">
+          <Route path="/home">
             <Bio />
           </Route>
-          <Route exact path="/skills">
+          <Route path="/about">
             <Skills />
           </Route>
-          <Route exact path="/projects">
+          <Route path="/projects">
             <Projects />
           </Route>
         </Switch>
