@@ -38,7 +38,7 @@ class App extends React.Component {
             </li>
             <li>
               <Link onClick={this.startAnimation.bind(this)} to="/projects">My Work</Link>
-            </li>
+            </li>            
           </ul>
           <div className={!this.state.clicked ? "container icon" : "icon container change"} onClick={this.startAnimation.bind(this)}>
             <div className="bar1"></div>

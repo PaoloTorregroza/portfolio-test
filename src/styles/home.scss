@@ -1,57 +1,63 @@
 @import 'colorAndFont';
 
 .home {
-    position: absolute;
     width: 100%;
-    margin-top: 10%;
-    display: flex;
-    justify-content: space-between;
+    display: block;
+    margin-top: 4%;
 }
 
 .name {
-    margin-right: 1%;
-    margin-top: 6%;
+    text-align: center;
     color: $text;
     padding: 10px;
 }
 
 .name h1 {
     margin: 0;
-    font-size: 535%;
+    font-size: 650%;
     font-weight: lighter;
 }
 
-.name h3 {
-    position: absolute;
-    margin-top: -17px;
-    margin-left: 240px;
+.name h2 {
+    margin-top: -25px;
+    margin-left: 360px;
 }
 
-.logo{
-    width: 370px;
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
     height: auto;
-    margin-left: 6.25%;
-    margin-top: 1%;
+}
+.logo img {
+    width: 300px;
+    height: auto;
 }
 
 @media only screen and (max-width: 800px) {
     .home {
         width: 100%;
-        padding-top: 15%;
         display: flex;
         flex-direction: column-reverse;
     }
 
     .logo {
-        margin-top: 70px;
-        margin-left: 25%;
+        margin-top: 30%;
         margin-bottom: 125px;
-        width: 50%;
+    }
+
+    .logo img {
+        width: 200px;
     }
 
     .name {
         bottom: 0;
-        font-size: 75%;
+        font-size: 55%;
+    }
+    .name h2 {
+        font-size: 200%;
+        bottom: 1px;
+        margin: 0;
     }
 }
 

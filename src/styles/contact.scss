@@ -1,20 +1,19 @@
 @import 'colorAndFont';
 
-img {
+.imgContainer {
+    position: fixed;
+    left: 0;
+    top: 40%;
+    width: 45px;
+    display: block;
+    margin-left: 15px;
+}
+
+.imgContainer img {
     width: 45px;
     height: 45px;
-    margin: 0 20px 0 20px;
+    margin-bottom: 10px;
 }
-
-.imgContainer {
-    height: 10%;
-    width: 100%;
-    bottom: 1px;
-    position: fixed;
-    display: flex;
-    justify-content: center;
-}
-
 .imgContainer img:hover {
     border-radius: 30px;
     animation-duration: 4s;
@@ -25,21 +24,26 @@ img {
     from {
         width: 45px;
         height: 45px;
-        background-color: transparent;
     }
 
     10% {
         width: 55px;
         height: 55px;
+        margin-bottom: 0;
         transform: rotate(-360deg);
-        background-color: $primary;
     }
 
     to {
         width: 55px;
         height: 55px;
+        margin-bottom: 0;
         transform: rotate(-360deg);
-        background-color: $primary;
     }
 }
 
+@media only screen and (max-width: 800px) {
+
+    .imgContainer {
+        display: none;
+    }
+}

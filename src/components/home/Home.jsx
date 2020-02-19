@@ -6,11 +6,13 @@ class Home extends React.Component {
     render() {
         return (
             <div className="home">
-                <img className="logo" src={PaolinskyLogo} alt="Paolinsky Logo"/>
                 <div className="name">
                     <h1>Paolo</h1>
                     <h1>Torregrosa</h1>
-                    <h3>Software developer</h3>
+                    <h2>Software developer</h2>
+                </div>
+                <div className="logo">
+                    <img src={PaolinskyLogo} alt="Paolinsky Logo" />
                 </div>
             </div>
         );
