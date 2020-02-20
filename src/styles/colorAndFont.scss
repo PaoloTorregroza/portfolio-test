@@ -10,5 +10,5 @@ $light-blue: #00A8E8;
 /*
 Font
 */
-
-$primary-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+$primary-font: 'Roboto Slab', serif;
