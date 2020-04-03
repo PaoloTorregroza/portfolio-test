@@ -19,16 +19,13 @@ class Skills extends React.Component {
     render() {
         return (
             <div className="skillsContainer">
-                <Skill image={Golang} title="Golang" text="Golang is an open source 
-                programming language that makes it easy to build simple, reliable, 
-                and efficient software. I really love programming in Go, 
-                it is efficient, funny and powerful "/>
-                <Skill image={Node} title="Node" text="I know how to use Node with 
-                express for build backend systems. Node.js is a JavaScript 
-                runtime built on Chrome's V8 JavaScript engine and Express is 
-                a minimal and flexible Node.js web application framework that 
-                provides a robust set of features for web and mobile 
-                applications. "/>
+                <Skill image={Golang} title="Golang" text="I really love Golang, 
+                It is and amazing language, with him I built some APIs with database 
+                connection for university projects."/>
+                <Skill image={Node} title="Node" text="I have little experience and 
+                contact with this way of writing JS, But thanks to platzi.com 
+                I know that node have a great documentation and comunity. Whit 
+                node I implemented a CRUD while following a platzi course."/>
                 <Skill image={Python} title="Python" text="Python is a programming 
                 language that lets you work more quickly and integrate your 
                 systems more effectively. I know how to use python with libraries 
