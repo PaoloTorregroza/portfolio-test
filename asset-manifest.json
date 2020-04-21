@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.5be15aba.chunk.css",
+    "main.js": "/portfolio/static/js/main.514ca3dc.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.514ca3dc.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
+    "static/js/2.c5ce907b.chunk.js": "/portfolio/static/js/2.c5ce907b.chunk.js",
+    "static/js/2.c5ce907b.chunk.js.map": "/portfolio/static/js/2.c5ce907b.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.2a8209696c29b4157541d56d61be43a3.js": "/portfolio/precache-manifest.2a8209696c29b4157541d56d61be43a3.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.5be15aba.chunk.css.map": "/portfolio/static/css/main.5be15aba.chunk.css.map",
+    "static/js/2.c5ce907b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c5ce907b.chunk.js.LICENSE.txt",
+    "static/media/PaolinskyLogo.png": "/portfolio/static/media/PaolinskyLogo.b00f737f.png",
+    "static/media/Paolo.jpg": "/portfolio/static/media/Paolo.4bb12b0f.jpg",
+    "static/media/c.png": "/portfolio/static/media/c.b4555209.png",
+    "static/media/csharp.png": "/portfolio/static/media/csharp.0a25407f.png",
+    "static/media/game-of-life.png": "/portfolio/static/media/game-of-life.7e8be056.png",
+    "static/media/github.png": "/portfolio/static/media/github.628faa98.png",
+    "static/media/godot.svg": "/portfolio/static/media/godot.a470baa3.svg",
+    "static/media/golang.png": "/portfolio/static/media/golang.975f6d4b.png",
+    "static/media/htmlcssjs.png": "/portfolio/static/media/htmlcssjs.f6b1b461.png",
+    "static/media/java.png": "/portfolio/static/media/java.6f3e502f.png",
+    "static/media/math.png": "/portfolio/static/media/math.87076c7b.png",
+    "static/media/node.svg": "/portfolio/static/media/node.b337a2fb.svg",
+    "static/media/portfolioImg.png": "/portfolio/static/media/portfolioImg.21c00920.png",
+    "static/media/postgresql.webp": "/portfolio/static/media/postgresql.55747c4b.webp",
+    "static/media/python.png": "/portfolio/static/media/python.826ecc0a.png",
+    "static/media/react.png": "/portfolio/static/media/react.638be909.png",
+    "static/media/sass.png": "/portfolio/static/media/sass.f54d6da1.png",
+    "static/media/vue.png": "/portfolio/static/media/vue.2b47c276.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44087e9b.js",
+    "static/js/2.c5ce907b.chunk.js",
+    "static/css/main.5be15aba.chunk.css",
+    "static/js/main.514ca3dc.chunk.js"
+  ]
+}
