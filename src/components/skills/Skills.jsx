@@ -19,6 +19,7 @@ class Skills extends React.Component {
     render() {
         return (
             <div className="skillsContainer">
+                <h1>EN PROCESO :3 UwU</h1>
                 <Skill image={Golang} title="Golang" text="I really love Golang, 
                 It is and amazing language, with him I built some APIs with database 
                 connection for university projects."/>

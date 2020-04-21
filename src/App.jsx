@@ -31,13 +31,13 @@ class App extends React.Component {
               <Link onClick={this.startAnimation.bind(this)} to="/">Home</Link>
             </li>
             <li>
-              <Link onClick={this.startAnimation.bind(this)} to="/bio">About</Link>
+              <Link onClick={this.startAnimation.bind(this)} to="/bio">Acerca de</Link>
             </li>
             <li>
-              <Link onClick={this.startAnimation.bind(this)} to="/skills">Skills</Link>
+              <Link onClick={this.startAnimation.bind(this)} to="/skills">Habilidades</Link>
             </li>
             <li>
-              <Link onClick={this.startAnimation.bind(this)} to="/projects">My Work</Link>
+              <Link onClick={this.startAnimation.bind(this)} to="/projects">Proyectos</Link>
             </li>            
           </ul>
           <div className={!this.state.clicked ? "container icon" : "icon container change"} onClick={this.startAnimation.bind(this)}>
