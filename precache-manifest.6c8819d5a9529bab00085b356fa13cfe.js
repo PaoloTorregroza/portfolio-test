@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8e8a9ab8039d0d11d32da405f2e18d90",
+    "revision": "e2a8f8271ef9d9cf7801d19acd6b9e39",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "c6677b88c87e97100363",
-    "url": "/portfolio/static/css/main.5be15aba.chunk.css"
+    "revision": "b93d9626c949294b60b6",
+    "url": "/portfolio/static/css/main.9f9029c3.chunk.css"
   },
   {
-    "revision": "ff09db167214f64687b6",
-    "url": "/portfolio/static/js/2.c5ce907b.chunk.js"
+    "revision": "57e6dde1145df7e45a49",
+    "url": "/portfolio/static/js/2.377623b1.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/portfolio/static/js/2.c5ce907b.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.377623b1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c6677b88c87e97100363",
-    "url": "/portfolio/static/js/main.514ca3dc.chunk.js"
+    "revision": "b93d9626c949294b60b6",
+    "url": "/portfolio/static/js/main.e12bce89.chunk.js"
   },
   {
     "revision": "0d98471f6c3b69ca4251",
     "url": "/portfolio/static/js/runtime-main.44087e9b.js"
+  },
+  {
+    "revision": "f289969b304273726d26633ccc8ee7af",
+    "url": "/portfolio/static/media/Amazon.f289969b.jpg"
+  },
+  {
+    "revision": "32c05551dfddf1f0d9b33f7c5b24a3c2",
+    "url": "/portfolio/static/media/GoLife.32c05551.png"
   },
   {
     "revision": "b00f737f3f49ef5a0daba40aff3ce531",
@@ -70,10 +78,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b337a2fb0b1289e6757e632dc766ff6b",
     "url": "/portfolio/static/media/node.b337a2fb.svg"
-  },
-  {
-    "revision": "21c0092065c00c79f7287ea7bce6f090",
-    "url": "/portfolio/static/media/portfolioImg.21c00920.png"
   },
   {
     "revision": "55747c4b53ae8fd363aaec3841d5f48a",

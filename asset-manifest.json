@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5be15aba.chunk.css",
-    "main.js": "/portfolio/static/js/main.514ca3dc.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.514ca3dc.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.9f9029c3.chunk.css",
+    "main.js": "/portfolio/static/js/main.e12bce89.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e12bce89.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
-    "static/js/2.c5ce907b.chunk.js": "/portfolio/static/js/2.c5ce907b.chunk.js",
-    "static/js/2.c5ce907b.chunk.js.map": "/portfolio/static/js/2.c5ce907b.chunk.js.map",
+    "static/js/2.377623b1.chunk.js": "/portfolio/static/js/2.377623b1.chunk.js",
+    "static/js/2.377623b1.chunk.js.map": "/portfolio/static/js/2.377623b1.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.2a8209696c29b4157541d56d61be43a3.js": "/portfolio/precache-manifest.2a8209696c29b4157541d56d61be43a3.js",
+    "precache-manifest.6c8819d5a9529bab00085b356fa13cfe.js": "/portfolio/precache-manifest.6c8819d5a9529bab00085b356fa13cfe.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.5be15aba.chunk.css.map": "/portfolio/static/css/main.5be15aba.chunk.css.map",
-    "static/js/2.c5ce907b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c5ce907b.chunk.js.LICENSE.txt",
+    "static/css/main.9f9029c3.chunk.css.map": "/portfolio/static/css/main.9f9029c3.chunk.css.map",
+    "static/js/2.377623b1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.377623b1.chunk.js.LICENSE.txt",
+    "static/media/Amazon.jpg": "/portfolio/static/media/Amazon.f289969b.jpg",
+    "static/media/GoLife.png": "/portfolio/static/media/GoLife.32c05551.png",
     "static/media/PaolinskyLogo.png": "/portfolio/static/media/PaolinskyLogo.b00f737f.png",
     "static/media/Paolo.jpg": "/portfolio/static/media/Paolo.4bb12b0f.jpg",
     "static/media/c.png": "/portfolio/static/media/c.b4555209.png",
@@ -24,7 +26,6 @@
     "static/media/java.png": "/portfolio/static/media/java.6f3e502f.png",
     "static/media/math.png": "/portfolio/static/media/math.87076c7b.png",
     "static/media/node.svg": "/portfolio/static/media/node.b337a2fb.svg",
-    "static/media/portfolioImg.png": "/portfolio/static/media/portfolioImg.21c00920.png",
     "static/media/postgresql.webp": "/portfolio/static/media/postgresql.55747c4b.webp",
     "static/media/python.png": "/portfolio/static/media/python.826ecc0a.png",
     "static/media/react.png": "/portfolio/static/media/react.638be909.png",
@@ -33,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.44087e9b.js",
-    "static/js/2.c5ce907b.chunk.js",
-    "static/css/main.5be15aba.chunk.css",
-    "static/js/main.514ca3dc.chunk.js"
+    "static/js/2.377623b1.chunk.js",
+    "static/css/main.9f9029c3.chunk.css",
+    "static/js/main.e12bce89.chunk.js"
   ]
 }
