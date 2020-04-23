@@ -3,8 +3,11 @@
 
 body {
   margin: 0;
-  font-family: $primary-font;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: $primary;
+  font-family: $primary-font;
+}
+h2, h3, h4, h5, h6 {
+  font-family: $title-font;
 }

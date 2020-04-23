@@ -19,59 +19,44 @@ class Skills extends React.Component {
     render() {
         return (
             <div className="skillsContainer">
-                <h1>EN PROCESO :3 UwU</h1>
-                <Skill image={Golang} title="Golang" text="I really love Golang, 
-                It is and amazing language, with him I built some APIs with database 
-                connection for university projects."/>
-                <Skill image={Node} title="Node" text="I have little experience and 
-                contact with this way of writing JS, But thanks to platzi.com 
-                I know that node have a great documentation and comunity. Whit 
-                node I implemented a CRUD while following a platzi course."/>
-                <Skill image={Python} title="Python" text="Python is a programming 
-                language that lets you work more quickly and integrate your 
-                systems more effectively. I know how to use python with libraries 
-                like Pygame (For game dev), flask (for backend) and the math 
-                and plotting libraries"/>
-                <Skill image={webDev} title="HTML/CSS/JS" text="HTML, CSS and JS 
-                are the parts of all websites that users directly interact with."/>
-                 <Skill image={ReactImage} title="Reactjs" text="React (also known 
-                as React.js or ReactJS) is a JavaScript library[3] for building 
-                user interfaces. It is maintained by Facebook and a community of 
-                individual developers and companies."/>
-                <Skill image={Vue} title="Vuejs" text="Vue is a progressive 
-                framework for building user interfaces. Unlike other monolithic 
-                frameworks, Vue is designed from the ground up to be incrementally 
-                adoptable."/>  
-                <Skill image={Postgres} title="PosttgreSQL" text="PostgreSQL is a 
-                powerful, open source object-relational database system with 
-                over 30 years of active development that has earned it a strong 
-                reputation for reliability, feature robustness, and performance." />              
-                <Skill image={Sass} title="Sass" text="Sass is the most mature, 
-                stable, and powerful professional grade CSS extension language 
-                in the world. "/>
-                <Skill image={MathPower} title="Maths" text="Thanks to my 
-                engineering studies I have a strong mathematical knowledge 
-                applicable to machine learning or data analysis" />
-                <Skill image={Csharp} title="C# (Unity)" text="C# is a 
-                general-purpose, multi-paradigm programmin language. It was developed
-                around 2000 by microsoft as part of its .NET initiative. C# is the
-                language used by unity. Unity is a cross-platform game engine 
-                developed by Unity Technologies"/>
-                <Skill image={Godot} title="Godot Game Engine" text=" Godot 
-                provides a huge set of common tools, so you can just focus on 
-                making your game without reinventing the 
-                wheel. Godot is completely free and open-source under the very 
-                permissive MIT license."/>
-                <Skill image={Cpp} title="C/C++" text="C++ is a high-level, 
-                general-purpose programming language created by Bjarne Stroustrup
-                as an extension of the C programming language, The language has
-                expanded significantly over time, and modern C++ has 
-                object-oriented, generic, and functional features in addition to 
-                facilities for low-level memory manipulation."/>
-                <Skill image={Java} title="Java" text="Java is a general-purpose 
-                programming language that is class-based, object-oriented, and 
-                designed to have as few implementation dependencies as 
-                possible."/>
+                <Skill image={Golang} title="Golang" text="Go es uno de mis lenguajes favoritos, al ser tipado y compilado es muy eficiente
+                tanto en desarrollo como en producción, normalmente se usa en el desarrollo backend, pero el desarrollo de otro tipo de sistemas
+                y software también es posible y muy bueno. Ademas que según yo... Tiene una de las mascotas mas lindas de todas."/>
+                <Skill image={Node} title="Node" text="Node. Un estándar muy importante conocerlo tanto en frontend como en backend. 
+                Donde mas hago uso de él es en programación de servidores con express y testing con mocha. No soy muy fan de tener 
+                lenguajes interpretados en el backend pero tengo que admitir que su excelente documentación y comunidad son de gran ayuda."/>
+                <Skill image={Python} title="Python" text="Python es uno de los lenguajes en los que probablemente he escrito 
+                mas código. Con el he escrito bot que se encargan de hacer tareas repetitivas con selenium (Como recolectar 
+                datos de amazon), juego con pygame, y actualmente los conocimientos de machine learning que adquiero los suelo 
+                implementar en python."/>
+                <Skill image={webDev} title="HTML/CSS/JS" text="La trinidad web, fundamentales para cualquier persona quiera 
+                hacer algo relacionado con internet, con css he tenido la oportunidad de trabajar con bootstrap 4 y con Sass"/>
+                 <Skill image={ReactImage} title="Reactjs" text="ReactJS es una librería de JS muy utilizada en el 
+                 desarrollo de aplicaciones web, al ser creada por facebook cuenta con un excelente soporte ademas de una 
+                 comunidad muy grande, probablemente mi opción preferida al trabajar en el frontend."/>
+                <Skill image={Vue} title="Vuejs" text="Vuejs es un framework genial para proyectos no demasiado grandes, 
+                es muy fácil de usar y de integrar y por eso decidí tomarlo como primer framework frontend mientras aprendía."/>  
+                <Skill image={Postgres} title="PosttgreSQL" text="Postrgesql es mi base de datos SQL favorita, es poderosa, 
+                opensource y al ser una de las bases de datos mas utilizadas es fácil encontrar documentación y ayuda. 
+                En cada proyecto que tengo que requiere una base de datos SQL postgres es mi primera opción." />              
+                <Skill image={Sass} title="Sass" text="Sass es una herramiento que encuentro sumamente util en proyectos 
+                en los que no utilizo un framework de css como bootstrap o material-ui. "/>
+                <Skill image={MathPower} title="Matemáticas" text="Algunas ramas de las matemáticas son realmente interesantes 
+                y resulta realmente divertido estudiarlas. Este pensamiento y mis estudios en ingeniería me permiten 
+                decir que tengo un solido trasfondo de matemáticas." />
+                <Skill image={Java} title="Java" text="Java es un lenguaje famoso, muy versátil y poco complejo con 
+                montones de posibilidades, también lo estudie en la universidad pero tengo conocimientos de antes de eso, 
+                como lenguaje a pesar de lo que muchos digan me gusta. Creo que me gusta programar en lenguajes tipados y 
+                compilados, pero java es el que mas fácilmente puede llevarse a cualquier sistema operativo."/>
+                <Skill image={Cpp} title="C/C++" text="C y C++ son dos lenguajes retadores de dominar, comencé a estudiarlos
+                 realmente en la universidad, pero mi curiosidad por como funcionan los lenguajes de programación y sistemas 
+                 operativos me llevo a profundizar un poco mas en estos potentes lenguajes."/>
+                <Skill image={Csharp} title="C#" text="C# fue el primer lenguaje de programación que aprendí, 
+                me permitió entender la programación orientada a objetos, y la los conceptos de programación en general."/>
+                <Skill image={Godot} title="Godot Game Engine" text=" Godot es un motor de videojuegos que me encanta, 
+                opino que es una opción realmente buena para estudios indie, a diferencia de unity godot si cuenta con un 
+                motor gráfico 2D. Tiene soporte para programar con C# o C++ pero el lenguaje propio que utiliza llamado 
+                GDscript no esta nada mal y es muy sencillo y rápido de aprender."/>
             </div>
         );
     }

@@ -2,6 +2,7 @@ import React from 'react';
 import '../../styles/home.scss'
 import PaolinskyLogo from '../../assets/PaolinskyLogo.png'
 import Contact from '../contact/Contact';
+import Bio from '../bio/Bio';
 
 class Home extends React.Component {
     render() {
@@ -18,6 +19,8 @@ class Home extends React.Component {
                 <div className="movileContact">
                     <Contact />
                 </div>
+                <br/>
+                <Bio/>
             </div>
         );
     }

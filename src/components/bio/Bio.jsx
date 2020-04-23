@@ -6,7 +6,9 @@ class Bio extends React.Component {
     render() {
         return (
             <div className="aboutContainer">
-                <img src={MyFace} alt="" />
+                <div className="img-container">
+                    <img src={MyFace} alt="" />
+                </div>
                 <div className="content">
                     <h2>Quien soy</h2>
                     <p>Soy un desarrollador de software autodidacta con estudios universitarios 

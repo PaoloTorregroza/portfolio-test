@@ -6,7 +6,6 @@ import {
   Link
 } from 'react-router-dom'
 import Home from './components/home/Home';
-import Bio from './components/bio/Bio';
 import Skills from './components/skills/Skills';
 import Projects from './components/projects/Projects';
 
@@ -28,16 +27,13 @@ class App extends React.Component {
         <nav className={!this.state.clicked ? "header" : "responsive header"} >
           <ul>
             <li>
-              <Link onClick={this.startAnimation.bind(this)} to="/">Home</Link>
+              <h4><Link onClick={this.startAnimation.bind(this)} to="/">Home</Link></h4>
             </li>
             <li>
-              <Link onClick={this.startAnimation.bind(this)} to="/bio">Acerca de</Link>
+              <h4><Link onClick={this.startAnimation.bind(this)} to="/skills">Habilidades</Link></h4>
             </li>
             <li>
-              <Link onClick={this.startAnimation.bind(this)} to="/skills">Habilidades</Link>
-            </li>
-            <li>
-              <Link onClick={this.startAnimation.bind(this)} to="/projects">Proyectos</Link>
+              <h4><Link onClick={this.startAnimation.bind(this)} to="/projects">Proyectos</Link></h4>
             </li>            
           </ul>
           <div className={!this.state.clicked ? "container icon" : "icon container change"} onClick={this.startAnimation.bind(this)}>
@@ -50,9 +46,6 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/">
             <Home />
-          </Route>
-          <Route path="/bio">
-            <Bio />
           </Route>
           <Route path="/skills">
             <Skills />

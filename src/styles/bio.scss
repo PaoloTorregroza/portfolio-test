@@ -12,11 +12,20 @@
     color: $text;
 }
 
-.aboutContainer img {
+.img-container {
     width: 80%;
     height: auto;
     border-bottom: 2px solid $text;
+    border-top: 2px solid $text;
     padding-bottom: 25px;
+    padding-top: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-container img {
+    width: 75%;
 }
 
 .content {
@@ -29,3 +38,4 @@
 .content p {
     font-size: large;
 }
+
