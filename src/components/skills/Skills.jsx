@@ -52,7 +52,7 @@ class Skills extends React.Component {
                  realmente en la universidad, pero mi curiosidad por como funcionan los lenguajes de programación y sistemas 
                  operativos me llevo a profundizar un poco mas en estos potentes lenguajes."/>
                 <Skill image={Csharp} title="C#" text="C# fue el primer lenguaje de programación que aprendí, 
-                me permitió entender la programación orientada a objetos, y la los conceptos de programación en general."/>
+                me permitió entender la programación orientada a objetos, y los conceptos de programación en general."/>
                 <Skill image={Godot} title="Godot Game Engine" text=" Godot es un motor de videojuegos que me encanta, 
                 opino que es una opción realmente buena para estudios indie, a diferencia de unity godot si cuenta con un 
                 motor gráfico 2D. Tiene soporte para programar con C# o C++ pero el lenguaje propio que utiliza llamado 

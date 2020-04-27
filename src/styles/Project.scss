@@ -1,12 +1,16 @@
 @import 'colorAndFont';
 
+.projectCards {
+    margin-top: 95px;
+}
+
 .projectCard {
     margin-left: 7%;
     width: 86%;
     height: 206;
     color: $text;
     display: flex;
-    margin-top: 60px;
+    margin-top: 50px;
     border-bottom: 3px solid $text;
     padding: 10px;
     justify-content: space-around;

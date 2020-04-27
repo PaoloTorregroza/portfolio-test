@@ -8,12 +8,35 @@
     text-align: center;
     padding-top: 50px;
     padding-bottom: 10px;
+
+    background: #ff3232;
+    background: linear-gradient(to left, transparent 50%, rgba(0, 18, 24, 0.781) 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+    transition:all 1s ease;
 }
 
 .skillCard img {
     height: 170px;
     width: auto;
     margin-bottom: -13px;
+}
+
+.skillCard:hover {
+    background-position: left bottom;
+    animation-duration: 0.5s;
+    animation-name: hover-scale;
+    scale: 1.2;
+}
+
+@keyframes hover-scale {
+    0% {
+        scale: 1;
+    }
+
+    60% {
+        scale: 1.2;
+    }
 }
 
 @media only screen and (max-width: 800px) {
